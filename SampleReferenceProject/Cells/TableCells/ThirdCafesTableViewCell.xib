@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ThirdCafesTableViewCell" rowHeight="335" id="KGk-i7-Jjw" customClass="ThirdCafesTableViewCell" customModule="SampleReferenceProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="335"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="335"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cafes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pYi-oK-bHT">
+                        <rect key="frame" x="8" y="8" width="44" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="qaf-X5-59g"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visit a cafe or deli" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iOX-U4-HLa">
+                        <rect key="frame" x="8" y="29" width="136" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="s4r-az-Zto"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="1bC-II-cIy">
+                        <rect key="frame" x="0.0" y="58" width="320" height="242"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="242" id="V5c-15-mqV"/>
+                        </constraints>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xcR-HW-nCV">
+                            <size key="itemSize" width="150" height="150"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dxg-wj-0GV">
+                        <rect key="frame" x="0.0" y="302" width="320" height="33"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="See More" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mg4-aK-Fp8">
+                                <rect key="frame" x="232" y="0.0" width="80" height="25"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.81568627449999997" green="0.18039215689999999" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mg4-aK-Fp8" firstAttribute="top" secondItem="Dxg-wj-0GV" secondAttribute="top" id="SFE-uZ-7YE"/>
+                            <constraint firstAttribute="bottom" secondItem="Mg4-aK-Fp8" secondAttribute="bottom" constant="8" id="YN8-b6-ant"/>
+                            <constraint firstAttribute="height" constant="33" id="cAt-9w-I9v"/>
+                            <constraint firstItem="Mg4-aK-Fp8" firstAttribute="leading" secondItem="Dxg-wj-0GV" secondAttribute="leading" constant="232" id="mv4-L1-9cQ"/>
+                            <constraint firstAttribute="trailing" secondItem="Mg4-aK-Fp8" secondAttribute="trailing" constant="8" id="twe-FX-HW0"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1bC-II-cIy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="1FN-cc-ysx"/>
+                    <constraint firstAttribute="trailing" secondItem="1bC-II-cIy" secondAttribute="trailing" id="6OD-GE-G5J"/>
+                    <constraint firstAttribute="trailing" secondItem="Dxg-wj-0GV" secondAttribute="trailing" id="DOA-NJ-gHz"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="pYi-oK-bHT" secondAttribute="leading" id="EgK-vL-NZG"/>
+                    <constraint firstItem="iOX-U4-HLa" firstAttribute="top" secondItem="pYi-oK-bHT" secondAttribute="bottom" id="IiI-8b-NA1"/>
+                    <constraint firstItem="Dxg-wj-0GV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Itu-bK-X9D"/>
+                    <constraint firstItem="Dxg-wj-0GV" firstAttribute="top" secondItem="1bC-II-cIy" secondAttribute="bottom" constant="2" id="Mb1-gT-dZg"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="iOX-U4-HLa" secondAttribute="leading" id="VJw-vf-wMW"/>
+                    <constraint firstAttribute="topMargin" secondItem="pYi-oK-bHT" secondAttribute="top" id="aXe-jG-ogn"/>
+                    <constraint firstAttribute="bottom" secondItem="Dxg-wj-0GV" secondAttribute="bottom" id="ih0-bO-LAq"/>
+                    <constraint firstItem="1bC-II-cIy" firstAttribute="top" secondItem="iOX-U4-HLa" secondAttribute="bottom" constant="8" id="lWj-c4-ytJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnFooterSeeMore" destination="Mg4-aK-Fp8" id="QsJ-yb-fau"/>
+                <outlet property="collectionViewMain" destination="1bC-II-cIy" id="vDu-1J-3SS"/>
+                <outlet property="lblHeader" destination="pYi-oK-bHT" id="1hg-No-muc"/>
+                <outlet property="lblMessage" destination="iOX-U4-HLa" id="Z3M-a2-P61"/>
+                <outlet property="viewFooter" destination="Dxg-wj-0GV" id="0Gl-rl-J49"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="3.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,15 @@
+PODS:
+  - NVActivityIndicatorView (3.5.1)
+  - SwiftMessages (3.2.1)
+
+DEPENDENCIES:
+  - NVActivityIndicatorView
+  - SwiftMessages
+
+SPEC CHECKSUMS:
+  NVActivityIndicatorView: 075563b3547445ebcff840e3297ce9dd4a23731f
+  SwiftMessages: d114d273978678c0dce036f30273865af7303a35
+
+PODFILE CHECKSUM: 7d9c11587869c2eeb06ad0ee4118a1ac76df6594
+
+COCOAPODS: 1.2.0
