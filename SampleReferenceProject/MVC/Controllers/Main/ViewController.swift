@@ -75,27 +75,27 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         }
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-//        switch (indexPath.row) {
-//        case 0:
-//            return 100
-//        case 1:
-//            return UITableViewAutomaticDimension
-////            return 270
-//        case 2:
-//            return 300
-//        case 3:
-//            return 300
-//        case 4:
-//            return 300
-//        case 5:
-//            return 300
-//        default:
-//            return 120
-//        }
-        return UITableViewAutomaticDimension
+        switch (indexPath.row) {
+        case 0:
+            return 100
+        case 1:
+            //return UITableViewAutomaticDimension
+            return 300
+        case 2:
+            return 400
+        case 3:
+            return 400
+        case 4:
+            return 300
+        case 5:
+            return 300
+        default:
+            return 120
+        }
+        //return UITableViewAutomaticDimension
     }
-    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableViewAutomaticDimension
-    }
+//    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+//        return UITableViewAutomaticDimension
+//    }
 }
 
