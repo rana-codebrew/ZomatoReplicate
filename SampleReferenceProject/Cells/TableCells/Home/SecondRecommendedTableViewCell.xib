@@ -16,24 +16,22 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="372"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="372"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="371"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You might like..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9D9-68-HqQ">
-                        <rect key="frame" x="8" y="8" width="121" height="21"/>
+                        <rect key="frame" x="8" y="8" width="145" height="30"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="21" id="f55-bw-512"/>
+                            <constraint firstAttribute="height" constant="30" id="Z8g-6c-rke"/>
+                            <constraint firstAttribute="width" constant="145" id="vFx-PL-GXO"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="h71-WO-PQo">
                         <rect key="frame" x="0.0" y="46" width="320" height="326"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="326" id="mb6-S9-Prn"/>
-                        </constraints>
                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="tf6-en-sI0">
                             <size key="itemSize" width="250" height="250"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -43,13 +41,12 @@
                     </collectionView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="h71-WO-PQo" firstAttribute="top" secondItem="9D9-68-HqQ" secondAttribute="bottom" constant="17" id="2Hu-dQ-YlI"/>
-                    <constraint firstAttribute="leadingMargin" secondItem="9D9-68-HqQ" secondAttribute="leading" id="30V-QT-X6f"/>
-                    <constraint firstAttribute="trailing" secondItem="h71-WO-PQo" secondAttribute="trailing" id="7be-w4-iGH"/>
-                    <constraint firstItem="h71-WO-PQo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="C21-Te-Y25"/>
-                    <constraint firstAttribute="topMargin" secondItem="9D9-68-HqQ" secondAttribute="top" id="DAw-Lb-AHd"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="9D9-68-HqQ" secondAttribute="trailing" constant="183" id="TQy-Z2-iqj"/>
-                    <constraint firstAttribute="bottom" secondItem="h71-WO-PQo" secondAttribute="bottom" id="lgf-XC-RFz"/>
+                    <constraint firstItem="h71-WO-PQo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ARg-vh-p0F"/>
+                    <constraint firstAttribute="bottom" secondItem="h71-WO-PQo" secondAttribute="bottom" id="DGn-q4-ePS"/>
+                    <constraint firstItem="h71-WO-PQo" firstAttribute="top" secondItem="9D9-68-HqQ" secondAttribute="bottom" constant="8" id="Evv-Vj-7oi"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="9D9-68-HqQ" secondAttribute="leading" id="IX4-Bd-FIe"/>
+                    <constraint firstAttribute="trailing" secondItem="h71-WO-PQo" secondAttribute="trailing" id="S2i-lg-5s3"/>
+                    <constraint firstAttribute="topMargin" secondItem="9D9-68-HqQ" secondAttribute="top" id="ca4-9f-9m7"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RecommendedCollectionViewCell" id="gTV-IL-0wX" customClass="RecommendedCollectionViewCell" customModule="SampleReferenceProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="243" height="276"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="243" height="276"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="foodPandas" translatesAutoresizingMaskIntoConstraints="NO" id="nyb-eO-dRN">
+                        <rect key="frame" x="0.0" y="0.0" width="243" height="128"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="namelabelnamelabelnamelabelnamelabelnamelabelnamelabelnamelabelnamelabelnamelabelnamelabelnamelabel" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMX-jf-EKl">
+                        <rect key="frame" x="8" y="135" width="227" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Address" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EA0-BB-l9o">
+                        <rect key="frame" x="8" y="161" width="227" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Speciality" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0uf-qd-hwK">
+                        <rect key="frame" x="8" y="190" width="227" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NWf-kl-kjO">
+                        <rect key="frame" x="8" y="24" width="80" height="30"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.65490196078431373" green="0.52941176470588236" blue="0.12364493974673202" alpha="0.52282213184931503" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <state key="normal" title="Sponsored">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="nyb-eO-dRN" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="N8O-pp-ldl"/>
+                <constraint firstAttribute="trailing" secondItem="nyb-eO-dRN" secondAttribute="trailing" id="XL2-id-ATO"/>
+                <constraint firstItem="nyb-eO-dRN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="etO-Fr-3YH"/>
+            </constraints>
+            <size key="customSize" width="243" height="276"/>
+            <connections>
+                <outlet property="imgViewMain" destination="nyb-eO-dRN" id="QvW-Pa-QFV"/>
+                <outlet property="lblAddress" destination="EA0-BB-l9o" id="tk1-o7-bMG"/>
+                <outlet property="lblName" destination="CMX-jf-EKl" id="INR-7K-bQF"/>
+                <outlet property="lblSpeciality" destination="0uf-qd-hwK" id="ovE-uY-0aU"/>
+            </connections>
+            <point key="canvasLocation" x="-276.5" y="72"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="foodPandas" width="1200" height="690"/>
+    </resources>
+</document>

@@ -8,6 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		08BC2DA0EECE70EAF04C48C5 /* Pods_SampleReferenceProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E7641879453CCBA6F788B9 /* Pods_SampleReferenceProject.framework */; };
+		1D6713DD1E8A6AE800561EFC /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6713DC1E8A6AE800561EFC /* AccountsViewController.swift */; };
+		1D6713F61E8A6AF800561EFC /* CafesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6713E11E8A6AF800561EFC /* CafesCollectionViewCell.swift */; };
+		1D6713F71E8A6AF800561EFC /* CafesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6713E21E8A6AF800561EFC /* CafesCollectionViewCell.xib */; };
+		1D6713F81E8A6AF800561EFC /* DineRestuarantsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6713E31E8A6AF800561EFC /* DineRestuarantsCollectionViewCell.swift */; };
+		1D6713F91E8A6AF800561EFC /* DineRestuarantsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6713E41E8A6AF800561EFC /* DineRestuarantsCollectionViewCell.xib */; };
+		1D6713FA1E8A6AF800561EFC /* RecommendedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6713E51E8A6AF800561EFC /* RecommendedCollectionViewCell.swift */; };
+		1D6713FB1E8A6AF800561EFC /* RecommendedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6713E61E8A6AF800561EFC /* RecommendedCollectionViewCell.xib */; };
+		1D6713FC1E8A6AF800561EFC /* FifthDineRestaurantsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6713EA1E8A6AF800561EFC /* FifthDineRestaurantsTableViewCell.swift */; };
+		1D6713FD1E8A6AF800561EFC /* FifthDineRestaurantsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6713EB1E8A6AF800561EFC /* FifthDineRestaurantsTableViewCell.xib */; };
+		1D6713FE1E8A6AF800561EFC /* FirstOrderNBrowseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6713EC1E8A6AF800561EFC /* FirstOrderNBrowseTableViewCell.swift */; };
+		1D6713FF1E8A6AF800561EFC /* FirstOrderNBrowseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6713ED1E8A6AF800561EFC /* FirstOrderNBrowseTableViewCell.xib */; };
+		1D6714001E8A6AF800561EFC /* FourthDeliveryRestaurantsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6713EE1E8A6AF800561EFC /* FourthDeliveryRestaurantsTableViewCell.swift */; };
+		1D6714011E8A6AF800561EFC /* FourthDeliveryRestaurantsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6713EF1E8A6AF800561EFC /* FourthDeliveryRestaurantsTableViewCell.xib */; };
+		1D6714021E8A6AF800561EFC /* SecondRecommendedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6713F01E8A6AF800561EFC /* SecondRecommendedTableViewCell.swift */; };
+		1D6714031E8A6AF800561EFC /* SecondRecommendedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6713F11E8A6AF800561EFC /* SecondRecommendedTableViewCell.xib */; };
+		1D6714041E8A6AF800561EFC /* SixthDessertsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6713F21E8A6AF800561EFC /* SixthDessertsTableViewCell.swift */; };
+		1D6714051E8A6AF800561EFC /* SixthDessertsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6713F31E8A6AF800561EFC /* SixthDessertsTableViewCell.xib */; };
+		1D6714061E8A6AF800561EFC /* ThirdCafesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6713F41E8A6AF800561EFC /* ThirdCafesTableViewCell.swift */; };
+		1D6714071E8A6AF800561EFC /* ThirdCafesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6713F51E8A6AF800561EFC /* ThirdCafesTableViewCell.xib */; };
+		1D6714151E8A8ABC00561EFC /* SectionMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6714141E8A8ABC00561EFC /* SectionMenuTableViewCell.swift */; };
+		1D6714171E8A8B3100561EFC /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6714161E8A8B3100561EFC /* HeaderTableViewCell.swift */; };
 		1DD25A6E1E8223CB007F0BFF /* SampleReferenceProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DD25A6C1E8223CB007F0BFF /* SampleReferenceProject.xcdatamodeld */; };
 		1DD25A701E8223CB007F0BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD25A6F1E8223CB007F0BFF /* Assets.xcassets */; };
 		1DD25A8F1E822E00007F0BFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD25A811E822E00007F0BFF /* AppDelegate.swift */; };
@@ -19,27 +40,30 @@
 		1DD25A9F1E825611007F0BFF /* AlertSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD25A9E1E825611007F0BFF /* AlertSwitch.swift */; };
 		1DD25AA11E825617007F0BFF /* AlertEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD25AA01E825617007F0BFF /* AlertEnums.swift */; };
 		1DE0CD051E8401DC003C1136 /* ZFRippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE0CD041E8401DC003C1136 /* ZFRippleButton.swift */; };
-		1DEFB5AD1E8A0EAF0073BE43 /* FirstOrderNBrowseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEFB5AB1E8A0EAF0073BE43 /* FirstOrderNBrowseTableViewCell.swift */; };
-		1DEFB5AE1E8A0EAF0073BE43 /* FirstOrderNBrowseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DEFB5AC1E8A0EAF0073BE43 /* FirstOrderNBrowseTableViewCell.xib */; };
-		1DEFB5B11E8A0EE30073BE43 /* SecondRecommendedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEFB5AF1E8A0EE30073BE43 /* SecondRecommendedTableViewCell.swift */; };
-		1DEFB5B21E8A0EE30073BE43 /* SecondRecommendedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DEFB5B01E8A0EE30073BE43 /* SecondRecommendedTableViewCell.xib */; };
-		1DEFB5B51E8A0F060073BE43 /* ThirdCafesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEFB5B31E8A0F060073BE43 /* ThirdCafesTableViewCell.swift */; };
-		1DEFB5B61E8A0F060073BE43 /* ThirdCafesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DEFB5B41E8A0F060073BE43 /* ThirdCafesTableViewCell.xib */; };
-		1DEFB5B91E8A0F3F0073BE43 /* FourthDeliveryRestaurantsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEFB5B71E8A0F3F0073BE43 /* FourthDeliveryRestaurantsTableViewCell.swift */; };
-		1DEFB5BA1E8A0F3F0073BE43 /* FourthDeliveryRestaurantsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DEFB5B81E8A0F3F0073BE43 /* FourthDeliveryRestaurantsTableViewCell.xib */; };
-		1DEFB5BD1E8A0F660073BE43 /* FifthDineRestaurantsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEFB5BB1E8A0F660073BE43 /* FifthDineRestaurantsTableViewCell.swift */; };
-		1DEFB5BE1E8A0F660073BE43 /* FifthDineRestaurantsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DEFB5BC1E8A0F660073BE43 /* FifthDineRestaurantsTableViewCell.xib */; };
-		1DEFB5C11E8A0F7C0073BE43 /* SixthDessertsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEFB5BF1E8A0F7C0073BE43 /* SixthDessertsTableViewCell.swift */; };
-		1DEFB5C21E8A0F7C0073BE43 /* SixthDessertsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DEFB5C01E8A0F7C0073BE43 /* SixthDessertsTableViewCell.xib */; };
-		1DEFB5C51E8A0FDE0073BE43 /* RecommendedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEFB5C31E8A0FDE0073BE43 /* RecommendedCollectionViewCell.swift */; };
-		1DEFB5C61E8A0FDE0073BE43 /* RecommendedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DEFB5C41E8A0FDE0073BE43 /* RecommendedCollectionViewCell.xib */; };
-		1DEFB5C91E8A0FED0073BE43 /* CafesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEFB5C71E8A0FED0073BE43 /* CafesCollectionViewCell.swift */; };
-		1DEFB5CA1E8A0FED0073BE43 /* CafesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DEFB5C81E8A0FED0073BE43 /* CafesCollectionViewCell.xib */; };
-		1DEFB5CD1E8A10020073BE43 /* DineRestuarantsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEFB5CB1E8A10020073BE43 /* DineRestuarantsCollectionViewCell.swift */; };
-		1DEFB5CE1E8A10020073BE43 /* DineRestuarantsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DEFB5CC1E8A10020073BE43 /* DineRestuarantsCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D6713DC1E8A6AE800561EFC /* AccountsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
+		1D6713E11E8A6AF800561EFC /* CafesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafesCollectionViewCell.swift; sourceTree = "<group>"; };
+		1D6713E21E8A6AF800561EFC /* CafesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CafesCollectionViewCell.xib; sourceTree = "<group>"; };
+		1D6713E31E8A6AF800561EFC /* DineRestuarantsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DineRestuarantsCollectionViewCell.swift; sourceTree = "<group>"; };
+		1D6713E41E8A6AF800561EFC /* DineRestuarantsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DineRestuarantsCollectionViewCell.xib; sourceTree = "<group>"; };
+		1D6713E51E8A6AF800561EFC /* RecommendedCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendedCollectionViewCell.swift; sourceTree = "<group>"; };
+		1D6713E61E8A6AF800561EFC /* RecommendedCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendedCollectionViewCell.xib; sourceTree = "<group>"; };
+		1D6713EA1E8A6AF800561EFC /* FifthDineRestaurantsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthDineRestaurantsTableViewCell.swift; sourceTree = "<group>"; };
+		1D6713EB1E8A6AF800561EFC /* FifthDineRestaurantsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FifthDineRestaurantsTableViewCell.xib; sourceTree = "<group>"; };
+		1D6713EC1E8A6AF800561EFC /* FirstOrderNBrowseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstOrderNBrowseTableViewCell.swift; sourceTree = "<group>"; };
+		1D6713ED1E8A6AF800561EFC /* FirstOrderNBrowseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstOrderNBrowseTableViewCell.xib; sourceTree = "<group>"; };
+		1D6713EE1E8A6AF800561EFC /* FourthDeliveryRestaurantsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthDeliveryRestaurantsTableViewCell.swift; sourceTree = "<group>"; };
+		1D6713EF1E8A6AF800561EFC /* FourthDeliveryRestaurantsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthDeliveryRestaurantsTableViewCell.xib; sourceTree = "<group>"; };
+		1D6713F01E8A6AF800561EFC /* SecondRecommendedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondRecommendedTableViewCell.swift; sourceTree = "<group>"; };
+		1D6713F11E8A6AF800561EFC /* SecondRecommendedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondRecommendedTableViewCell.xib; sourceTree = "<group>"; };
+		1D6713F21E8A6AF800561EFC /* SixthDessertsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SixthDessertsTableViewCell.swift; sourceTree = "<group>"; };
+		1D6713F31E8A6AF800561EFC /* SixthDessertsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SixthDessertsTableViewCell.xib; sourceTree = "<group>"; };
+		1D6713F41E8A6AF800561EFC /* ThirdCafesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdCafesTableViewCell.swift; sourceTree = "<group>"; };
+		1D6713F51E8A6AF800561EFC /* ThirdCafesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdCafesTableViewCell.xib; sourceTree = "<group>"; };
+		1D6714141E8A8ABC00561EFC /* SectionMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionMenuTableViewCell.swift; sourceTree = "<group>"; };
+		1D6714161E8A8B3100561EFC /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
 		1DD25A621E8223CB007F0BFF /* SampleReferenceProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleReferenceProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD25A6D1E8223CB007F0BFF /* SampleReferenceProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SampleReferenceProject.xcdatamodel; sourceTree = "<group>"; };
 		1DD25A6F1E8223CB007F0BFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,24 +77,6 @@
 		1DD25A9E1E825611007F0BFF /* AlertSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertSwitch.swift; sourceTree = "<group>"; };
 		1DD25AA01E825617007F0BFF /* AlertEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertEnums.swift; sourceTree = "<group>"; };
 		1DE0CD041E8401DC003C1136 /* ZFRippleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFRippleButton.swift; sourceTree = "<group>"; };
-		1DEFB5AB1E8A0EAF0073BE43 /* FirstOrderNBrowseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstOrderNBrowseTableViewCell.swift; sourceTree = "<group>"; };
-		1DEFB5AC1E8A0EAF0073BE43 /* FirstOrderNBrowseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstOrderNBrowseTableViewCell.xib; sourceTree = "<group>"; };
-		1DEFB5AF1E8A0EE30073BE43 /* SecondRecommendedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondRecommendedTableViewCell.swift; sourceTree = "<group>"; };
-		1DEFB5B01E8A0EE30073BE43 /* SecondRecommendedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondRecommendedTableViewCell.xib; sourceTree = "<group>"; };
-		1DEFB5B31E8A0F060073BE43 /* ThirdCafesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdCafesTableViewCell.swift; sourceTree = "<group>"; };
-		1DEFB5B41E8A0F060073BE43 /* ThirdCafesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdCafesTableViewCell.xib; sourceTree = "<group>"; };
-		1DEFB5B71E8A0F3F0073BE43 /* FourthDeliveryRestaurantsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthDeliveryRestaurantsTableViewCell.swift; sourceTree = "<group>"; };
-		1DEFB5B81E8A0F3F0073BE43 /* FourthDeliveryRestaurantsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthDeliveryRestaurantsTableViewCell.xib; sourceTree = "<group>"; };
-		1DEFB5BB1E8A0F660073BE43 /* FifthDineRestaurantsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthDineRestaurantsTableViewCell.swift; sourceTree = "<group>"; };
-		1DEFB5BC1E8A0F660073BE43 /* FifthDineRestaurantsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FifthDineRestaurantsTableViewCell.xib; sourceTree = "<group>"; };
-		1DEFB5BF1E8A0F7C0073BE43 /* SixthDessertsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SixthDessertsTableViewCell.swift; sourceTree = "<group>"; };
-		1DEFB5C01E8A0F7C0073BE43 /* SixthDessertsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SixthDessertsTableViewCell.xib; sourceTree = "<group>"; };
-		1DEFB5C31E8A0FDE0073BE43 /* RecommendedCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendedCollectionViewCell.swift; sourceTree = "<group>"; };
-		1DEFB5C41E8A0FDE0073BE43 /* RecommendedCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendedCollectionViewCell.xib; sourceTree = "<group>"; };
-		1DEFB5C71E8A0FED0073BE43 /* CafesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafesCollectionViewCell.swift; sourceTree = "<group>"; };
-		1DEFB5C81E8A0FED0073BE43 /* CafesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CafesCollectionViewCell.xib; sourceTree = "<group>"; };
-		1DEFB5CB1E8A10020073BE43 /* DineRestuarantsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DineRestuarantsCollectionViewCell.swift; sourceTree = "<group>"; };
-		1DEFB5CC1E8A10020073BE43 /* DineRestuarantsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DineRestuarantsCollectionViewCell.xib; sourceTree = "<group>"; };
 		503B1C1E5A8906E3A30632DC /* Pods-SampleReferenceProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleReferenceProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleReferenceProject/Pods-SampleReferenceProject.debug.xcconfig"; sourceTree = "<group>"; };
 		A8E7641879453CCBA6F788B9 /* Pods_SampleReferenceProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleReferenceProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C17A434ABD78752EF17E57 /* Pods-SampleReferenceProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleReferenceProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleReferenceProject/Pods-SampleReferenceProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +94,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D6713DB1E8A6AE800561EFC /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				1D6713DC1E8A6AE800561EFC /* AccountsViewController.swift */,
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		1D6713DE1E8A6AF800561EFC /* CollectionCells */ = {
+			isa = PBXGroup;
+			children = (
+				1D6713DF1E8A6AF800561EFC /* Accounts */,
+				1D6713E01E8A6AF800561EFC /* Home */,
+			);
+			path = CollectionCells;
+			sourceTree = "<group>";
+		};
+		1D6713DF1E8A6AF800561EFC /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		1D6713E01E8A6AF800561EFC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1D6713E11E8A6AF800561EFC /* CafesCollectionViewCell.swift */,
+				1D6713E21E8A6AF800561EFC /* CafesCollectionViewCell.xib */,
+				1D6713E31E8A6AF800561EFC /* DineRestuarantsCollectionViewCell.swift */,
+				1D6713E41E8A6AF800561EFC /* DineRestuarantsCollectionViewCell.xib */,
+				1D6713E51E8A6AF800561EFC /* RecommendedCollectionViewCell.swift */,
+				1D6713E61E8A6AF800561EFC /* RecommendedCollectionViewCell.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1D6713E71E8A6AF800561EFC /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				1D6713E81E8A6AF800561EFC /* Accounts */,
+				1D6713E91E8A6AF800561EFC /* Home */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		1D6713E81E8A6AF800561EFC /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				1D6714141E8A8ABC00561EFC /* SectionMenuTableViewCell.swift */,
+				1D6714161E8A8B3100561EFC /* HeaderTableViewCell.swift */,
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		1D6713E91E8A6AF800561EFC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1D6713EC1E8A6AF800561EFC /* FirstOrderNBrowseTableViewCell.swift */,
+				1D6713ED1E8A6AF800561EFC /* FirstOrderNBrowseTableViewCell.xib */,
+				1D6713F01E8A6AF800561EFC /* SecondRecommendedTableViewCell.swift */,
+				1D6713F11E8A6AF800561EFC /* SecondRecommendedTableViewCell.xib */,
+				1D6713F41E8A6AF800561EFC /* ThirdCafesTableViewCell.swift */,
+				1D6713F51E8A6AF800561EFC /* ThirdCafesTableViewCell.xib */,
+				1D6713EA1E8A6AF800561EFC /* FifthDineRestaurantsTableViewCell.swift */,
+				1D6713EB1E8A6AF800561EFC /* FifthDineRestaurantsTableViewCell.xib */,
+				1D6713EE1E8A6AF800561EFC /* FourthDeliveryRestaurantsTableViewCell.swift */,
+				1D6713EF1E8A6AF800561EFC /* FourthDeliveryRestaurantsTableViewCell.xib */,
+				1D6713F21E8A6AF800561EFC /* SixthDessertsTableViewCell.swift */,
+				1D6713F31E8A6AF800561EFC /* SixthDessertsTableViewCell.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		1DD25A591E8223CA007F0BFF = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +258,7 @@
 		1DD25A861E822E00007F0BFF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1D6713DB1E8A6AE800561EFC /* Accounts */,
 				1DD25A871E822E00007F0BFF /* Main */,
 			);
 			path = Controllers;
@@ -257,42 +338,10 @@
 		1DEFB5A81E8A0E120073BE43 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				1DEFB5A91E8A0E120073BE43 /* CollectionCells */,
-				1DEFB5AA1E8A0E120073BE43 /* TableCells */,
+				1D6713DE1E8A6AF800561EFC /* CollectionCells */,
+				1D6713E71E8A6AF800561EFC /* TableCells */,
 			);
 			path = Cells;
-			sourceTree = "<group>";
-		};
-		1DEFB5A91E8A0E120073BE43 /* CollectionCells */ = {
-			isa = PBXGroup;
-			children = (
-				1DEFB5C31E8A0FDE0073BE43 /* RecommendedCollectionViewCell.swift */,
-				1DEFB5C41E8A0FDE0073BE43 /* RecommendedCollectionViewCell.xib */,
-				1DEFB5C71E8A0FED0073BE43 /* CafesCollectionViewCell.swift */,
-				1DEFB5C81E8A0FED0073BE43 /* CafesCollectionViewCell.xib */,
-				1DEFB5CB1E8A10020073BE43 /* DineRestuarantsCollectionViewCell.swift */,
-				1DEFB5CC1E8A10020073BE43 /* DineRestuarantsCollectionViewCell.xib */,
-			);
-			path = CollectionCells;
-			sourceTree = "<group>";
-		};
-		1DEFB5AA1E8A0E120073BE43 /* TableCells */ = {
-			isa = PBXGroup;
-			children = (
-				1DEFB5AB1E8A0EAF0073BE43 /* FirstOrderNBrowseTableViewCell.swift */,
-				1DEFB5AC1E8A0EAF0073BE43 /* FirstOrderNBrowseTableViewCell.xib */,
-				1DEFB5AF1E8A0EE30073BE43 /* SecondRecommendedTableViewCell.swift */,
-				1DEFB5B01E8A0EE30073BE43 /* SecondRecommendedTableViewCell.xib */,
-				1DEFB5B31E8A0F060073BE43 /* ThirdCafesTableViewCell.swift */,
-				1DEFB5B41E8A0F060073BE43 /* ThirdCafesTableViewCell.xib */,
-				1DEFB5BB1E8A0F660073BE43 /* FifthDineRestaurantsTableViewCell.swift */,
-				1DEFB5BC1E8A0F660073BE43 /* FifthDineRestaurantsTableViewCell.xib */,
-				1DEFB5B71E8A0F3F0073BE43 /* FourthDeliveryRestaurantsTableViewCell.swift */,
-				1DEFB5B81E8A0F3F0073BE43 /* FourthDeliveryRestaurantsTableViewCell.xib */,
-				1DEFB5BF1E8A0F7C0073BE43 /* SixthDessertsTableViewCell.swift */,
-				1DEFB5C01E8A0F7C0073BE43 /* SixthDessertsTableViewCell.xib */,
-			);
-			path = TableCells;
 			sourceTree = "<group>";
 		};
 		726F90A60B0D083731E476E1 /* Frameworks */ = {
@@ -374,18 +423,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DEFB5B61E8A0F060073BE43 /* ThirdCafesTableViewCell.xib in Resources */,
-				1DEFB5BA1E8A0F3F0073BE43 /* FourthDeliveryRestaurantsTableViewCell.xib in Resources */,
-				1DEFB5C21E8A0F7C0073BE43 /* SixthDessertsTableViewCell.xib in Resources */,
-				1DEFB5CA1E8A0FED0073BE43 /* CafesCollectionViewCell.xib in Resources */,
-				1DEFB5B21E8A0EE30073BE43 /* SecondRecommendedTableViewCell.xib in Resources */,
-				1DEFB5CE1E8A10020073BE43 /* DineRestuarantsCollectionViewCell.xib in Resources */,
-				1DEFB5C61E8A0FDE0073BE43 /* RecommendedCollectionViewCell.xib in Resources */,
+				1D6714071E8A6AF800561EFC /* ThirdCafesTableViewCell.xib in Resources */,
+				1D6714011E8A6AF800561EFC /* FourthDeliveryRestaurantsTableViewCell.xib in Resources */,
+				1D6713FD1E8A6AF800561EFC /* FifthDineRestaurantsTableViewCell.xib in Resources */,
 				1DD25A911E822E00007F0BFF /* LaunchScreen.storyboard in Resources */,
+				1D6713FF1E8A6AF800561EFC /* FirstOrderNBrowseTableViewCell.xib in Resources */,
+				1D6713F71E8A6AF800561EFC /* CafesCollectionViewCell.xib in Resources */,
+				1D6714031E8A6AF800561EFC /* SecondRecommendedTableViewCell.xib in Resources */,
+				1D6713F91E8A6AF800561EFC /* DineRestuarantsCollectionViewCell.xib in Resources */,
 				1DD25A701E8223CB007F0BFF /* Assets.xcassets in Resources */,
-				1DEFB5AE1E8A0EAF0073BE43 /* FirstOrderNBrowseTableViewCell.xib in Resources */,
-				1DEFB5BE1E8A0F660073BE43 /* FifthDineRestaurantsTableViewCell.xib in Resources */,
+				1D6713FB1E8A6AF800561EFC /* RecommendedCollectionViewCell.xib in Resources */,
 				1DD25A921E822E00007F0BFF /* Main.storyboard in Resources */,
+				1D6714051E8A6AF800561EFC /* SixthDessertsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,23 +493,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DEFB5B51E8A0F060073BE43 /* ThirdCafesTableViewCell.swift in Sources */,
-				1DEFB5C91E8A0FED0073BE43 /* CafesCollectionViewCell.swift in Sources */,
+				1D6713FE1E8A6AF800561EFC /* FirstOrderNBrowseTableViewCell.swift in Sources */,
+				1D6714041E8A6AF800561EFC /* SixthDessertsTableViewCell.swift in Sources */,
+				1D6714021E8A6AF800561EFC /* SecondRecommendedTableViewCell.swift in Sources */,
+				1D6713FA1E8A6AF800561EFC /* RecommendedCollectionViewCell.swift in Sources */,
+				1D6714061E8A6AF800561EFC /* ThirdCafesTableViewCell.swift in Sources */,
 				1DD25A9F1E825611007F0BFF /* AlertSwitch.swift in Sources */,
-				1DEFB5BD1E8A0F660073BE43 /* FifthDineRestaurantsTableViewCell.swift in Sources */,
-				1DEFB5B91E8A0F3F0073BE43 /* FourthDeliveryRestaurantsTableViewCell.swift in Sources */,
+				1D6713FC1E8A6AF800561EFC /* FifthDineRestaurantsTableViewCell.swift in Sources */,
 				1DD25AA11E825617007F0BFF /* AlertEnums.swift in Sources */,
 				1DD25A901E822E00007F0BFF /* ViewController.swift in Sources */,
-				1DEFB5C51E8A0FDE0073BE43 /* RecommendedCollectionViewCell.swift in Sources */,
+				1D6714151E8A8ABC00561EFC /* SectionMenuTableViewCell.swift in Sources */,
+				1D6713F61E8A6AF800561EFC /* CafesCollectionViewCell.swift in Sources */,
 				1DD25A8F1E822E00007F0BFF /* AppDelegate.swift in Sources */,
-				1DEFB5CD1E8A10020073BE43 /* DineRestuarantsCollectionViewCell.swift in Sources */,
+				1D6714001E8A6AF800561EFC /* FourthDeliveryRestaurantsTableViewCell.swift in Sources */,
+				1D6713F81E8A6AF800561EFC /* DineRestuarantsCollectionViewCell.swift in Sources */,
 				1DD25A941E822E2C007F0BFF /* enums.swift in Sources */,
 				1DD25A961E822E37007F0BFF /* validation.swift in Sources */,
+				1D6714171E8A8B3100561EFC /* HeaderTableViewCell.swift in Sources */,
 				1DD25A6E1E8223CB007F0BFF /* SampleReferenceProject.xcdatamodeld in Sources */,
+				1D6713DD1E8A6AE800561EFC /* AccountsViewController.swift in Sources */,
 				1DE0CD051E8401DC003C1136 /* ZFRippleButton.swift in Sources */,
-				1DEFB5AD1E8A0EAF0073BE43 /* FirstOrderNBrowseTableViewCell.swift in Sources */,
-				1DEFB5C11E8A0F7C0073BE43 /* SixthDessertsTableViewCell.swift in Sources */,
-				1DEFB5B11E8A0EE30073BE43 /* SecondRecommendedTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
